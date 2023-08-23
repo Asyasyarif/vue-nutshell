@@ -1,10 +1,10 @@
 
-//  1. create parent component
-//  2. create child component
+//  1. life cycle created, mounted, watch, computed.
+//  2. create parent component
+//  3. create child component
 //  4. communicate beetween component
 
 <template>
-
       <h1>
        Count : {{counter}}
       </h1>
@@ -28,12 +28,11 @@
     </v-row>
 </template>
 
-
-
 <script>
   export default {
     data() {
       return {
+          show: true,
           counter: 0
       }
     },
