@@ -1,8 +1,5 @@
 
-//  1. life cycle created, mounted, watch, computed.
-//  2. create parent component
-//  3. create child component
-//  4. communicate beetween component
+//  1. Vue Router
 
 <template>
       <h1>
